@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 /* for entire page */
+/* define color in color pallete to maintain consistency */
 :root {
     --primary-color: #4B5563;
+    --light-gray: #9CA3AF;
+    --off-white: #E5E7EB;
 }
 
 body {
@@ -12,10 +15,12 @@ body {
 hr {
     margin: 2rem 1rem;
 }
+
 /* container */
 .container {
     padding: 0rem 1rem;
 }
+
 /* rem: relative to font size with zoom-in and zoom-out. (preffered) */
 
 .container-center {
@@ -29,11 +34,13 @@ hr {
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
+
 .link-primary {
     background-color: var(--primary-color);
     border-radius: 2rem;
     color: white;
 }
+
 .link-secondary {
     color: var(--primary-color);
     border-radius: 2rem;
@@ -43,6 +50,7 @@ hr {
 .link-active {
     font-weight: bold;
 }
+
 /* bullets */
 .list-non-bullet {
     list-style: none;
@@ -52,7 +60,8 @@ hr {
     display: inline;
     padding: 0rem 1rem;
 }
- /* navigation */
+
+/* navigation */
 .navigation {
     background-color: var(--primary-color);
     color: white;
@@ -68,6 +77,7 @@ hr {
 .navigation .nav-pills {
     text-align: right;
 }
+
 /* .nav-pills :hover {
     background-color: rgb(150, 25, 25);
 } */
@@ -80,12 +90,32 @@ hr {
 .hero {
     padding: 0.5rem;
 }
+
 .hero .hero-img {
     max-width: 200px;
     margin: auto;
     display: block;
     border-radius: 7rem;
 }
+
 .hero .hero-heading {
+    padding-top: 1rem;
     text-align: center;
+    color: var(--light-gray);
+}
+
+.hero .hero-heading .heading-inverted {
+    color: var(--primary-color);
+}
+
+/* section */
+.section {
+    padding: 2rem;
+}
+.section h3 {
+    text-align: center;
+}
+
+.ow {
+    background-color: var(--off-white);
 }
