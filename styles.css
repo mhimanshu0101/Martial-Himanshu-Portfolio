@@ -74,7 +74,7 @@ img {
 
 .list-item-inline {
     display: inline;
-    padding: 0rem 1rem;
+    padding: 0rem 0rem;
 }
 
 /* navigation */
@@ -95,8 +95,9 @@ img {
 }
 
 .navigation .nav-pills {
-    text-align: right;
+    text-align: center;
     display: inline;
+    padding-inline-start: 0px;
 }
 
 .navigation .nav-pills-left {
