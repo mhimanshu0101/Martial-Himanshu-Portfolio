@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects | Martial Himanshu</title>
+    <title>Blog | Martial Himanshu</title>
     <link href="styles.css" rel="stylesheet">
     <link rel="icon" href="https://avatars3.githubusercontent.com/u/66832784?s=460&u=bcb7ca30963c0a55e96cff06b9cbb0704790b029&v=4" type="image/gif" sizes="16x16">
 </head>
@@ -11,20 +11,82 @@
     <body>
         <!-- Navbar -->
         <nav class="navigation">
-            <div class="nav-brand">Martial brand name</div>
-            <ul class="list-non-bullet nav-pills ">
+        
+            <!-- <div class="nav-brand">Martial brand name</div> -->
+            <ul class="list-non-bullet nav-pills-left">
+                <li class="list-item-inline">
+                    <img src="https://avatars3.githubusercontent.com/u/66832784?s=460&u=bcb7ca30963c0a55e96cff06b9cbb0704790b029&v=4" style="border-radius: 50%;width: 40px;height: 40px; text-align: left;">
+                </li>
+            </ul>
+            <ul class="list-non-bullet nav-pills">
                 <li class="list-item-inline">
                     <a class="link" href="index.html">Home</a>
                 </li>
-                <li class="list-item-inline link-active">
-                    <a class="link" href="project.html">Product</a>
-                </li>
                 <li class="list-item-inline">
-                    <a class="link" href="blog.html">About</a>
+                    <a class="link" href="project.html">Project</a>
+                </li>
+                <li class="list-item-inline link-active">
+                    <a class="link" href="blog.html">Blog</a>
                 </li>
             </ul>
         </nav>
+        <!-- Header -->
+        <header class="hero">
+            <img class="hero-land" src="./images/blog_land.svg">
+            <h1 class="hero-heading" style="color: black;">Archives</h1>
+            <div class="container container-center">
+                <small class="hero-heading">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</small>
+            </div>
+        </header>
+        <hr>
+        <!-- Blog list -->
+        <ul class="list-non-bullet">
+
+            <div class="container container-center">
+                <li style="margin: 1rem;">
+                    <h1><a style="text-decoration: none;" href="github-universe-2020-review.html">Github Universe 2020 Review</a></h1>
+                    <small>November, 2020</small>
+                    <p>If you are a marvel fan, I challenge you to play this game and send me results.</p>
+                </li>
+            </div>
+            
+            <div class="container container-center">
+                <li style="margin: 1rem;">
+                    <h1><a style="text-decoration: none;" href="/">Micro-service architecture and its 10 most important design pattern</a></h1>
+                    <small>December, 2020</small>
+                    <p>Read which design pattern used for different case in micro service architecture.</p>
+                </li>
+            </div>
+            
+            <div class="container container-center">
+                <li style="margin: 1rem;">
+                    <h1><a  style="text-decoration: none;" href="/">Deep dive into Garbage collection in Python</a></h1>
+                    <small>December, 2020</small>
+                    <br>
+                    <p>Read more about how Garbage collection works in Python and how much it is different than others language.</p>
+                </li>
+            </div>
+        </ul>
     
-        <h2>Blogs will list here</h2>
+        <br>
+
+        <!-- Footer -->
+    <footer class="footer">
+
+        <!-- footer section should not have header tag -->
+        <div class="footer-heading">Some small headiing inside footer</div>
+
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="/">Github</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">LinkedIn</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">Instagram</a>
+            </li>
+        </ul>
+    </footer>
 </body>
 </html>

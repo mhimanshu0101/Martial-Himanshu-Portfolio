@@ -45,22 +45,48 @@ img {
     /* auto make it center as per screen */
 }
 
+.container-inline {
+    /* display: block;
+    padding: 0rem 0.5rem; */
+    box-sizing: border-box;
+    display: inline-block;
+    height: 150px;
+    text-align: center;
+    width: 32%;
+}
+
 /* links */
 .link {
+    box-sizing: border-box;
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    margin: 1rem 0.5rem 1rem 0.5rem;
+    padding: 0.5rem 0.5rem;
 }
 
 .link-primary {
     background-color: var(--primary-color);
-    border-radius: 2rem;
+    border-radius: 0.5rem;
     color: white;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+}
+
+.link-primary:hover {
+    background-color: white;
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
 }
 
 .link-secondary {
     color: var(--primary-color);
-    border-radius: 2rem;
+    border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
+}
+
+.link-secondary:hover {
+    background-color: var(--primary-color);
+    color: white
 }
 
 .link-active {
@@ -70,6 +96,10 @@ img {
 /* bullets */
 .list-non-bullet {
     list-style: none;
+}
+
+.list-bullet {
+    text-align: left;
 }
 
 .list-item-inline {
@@ -125,6 +155,13 @@ img {
     border-radius: 7rem;
 }
 
+.hero .hero-land {
+    max-width: 500px;
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+
 .hero .hero-heading {
     padding-top: 1rem;
     text-align: center;
@@ -155,7 +192,7 @@ img {
 }
 
 .hero #home {
-    background: url(images/mhimanshu_land.jpg) repeat scroll left center / cover;
+    background: url(./images/blog_land.jpg) repeat scroll center center / cover;
     height: 65vh;
     width: 100%;
     background-position-x: right;
@@ -163,11 +200,12 @@ img {
 
 .hero .header-content {
     height: 100vh;
-    text-align: right;
+    text-align: center;
     width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    color: var(--light-gray);
 }
 
 .hero h1 {
@@ -221,19 +259,3 @@ img {
     font-weight: bold;
     font-size: large;
 }
-
-/* blur effect */
-/* .the-blur{
-    position: fixed;
-    top:0;
-    width: 100%;
-    min-height: 50px;
-    margin-bottom: 20px;
-    background: rgba(0,0,0,.4);
-    z-index:1010;
-    -webkit-filter: blur(20px);
-    -moz-filter: blur(20px);
-    -o-filter: blur(20px);
-    -ms-filter: blur(20px);
-    filter: blur(20px);
- } */
