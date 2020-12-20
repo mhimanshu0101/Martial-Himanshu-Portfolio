@@ -11,6 +11,16 @@
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
 }
 
 hr {
@@ -90,7 +100,7 @@ hr {
 
 /* header */
 .hero {
-    padding: 0.5rem;
+    padding: 1.5rem;
 }
 
 .hero .hero-img {
@@ -110,10 +120,40 @@ hr {
     color: var(--primary-color);
 }
 
+.hero #home {
+    background: url(images/mhimanshu_land.jpg) repeat scroll left center / cover;
+    height: 65vh;
+    width: 100%;
+    background-position-x: right;
+}
+
+.hero .header-content {
+    height: 100vh;
+    text-align: right;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    /* text-transform: uppercase; */
+    color: #fff;
+}
+
+.hero h5 {
+    color: white;
+    font-weight: bold;
+}
+
 /* section */
 .section {
     padding: 2rem;
 }
+
 .section h3 {
     text-align: center;
 }
@@ -130,9 +170,11 @@ hr {
     color: white;
     border-top-right-radius: 1rem;
 }
+
 .footer .link {
     color: white
 }
+
 .footer ul {
     padding-inline-start: 0px;
 }
