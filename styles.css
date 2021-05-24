@@ -159,7 +159,7 @@ img {
     max-width: 200px;
     margin: auto;
     display: block;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .hero .hero-heading {
