@@ -109,6 +109,11 @@ img {
     color: rgba(115,115,115,var(--tw-text-opacity));
 }
 
+p {
+    --tw-text-opacity: 1;
+    color: rgba(115,115,115,var(--tw-text-opacity));
+}
+
 /* bullets */
 .list-non-bullet {
     list-style: none;
