@@ -148,6 +148,19 @@ p {
     display: inline;
     padding: 0rem 0rem;
 }
+/* avatar effect */
+.avatar {
+  animation: pulse 1s infinite;
+  border-radius: 50%
+}
+@keyframes pulse {
+  from {
+    box-shadow: 0 0 0 0 rgba(255,122,0.3);
+  }
+  to {
+    box-shadow: 0 0 0 150px rgba(255, 122, 0, 0);
+  }
+}
 
 /* navigation */
 .navigation {
