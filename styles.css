@@ -3,7 +3,7 @@
 /* for entire page */
 /* define color in color pallete to maintain consistency */
 :root {
-    --primary-color: #057bb3c7;
+    --primary-color: rgba(255,122,0.3);
     --light-gray: #9CA3AF;
     --off-white: #E5E7EB;
     --footer-dark-black: #222;
