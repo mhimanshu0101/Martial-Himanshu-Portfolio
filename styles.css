@@ -403,4 +403,5 @@ a {
 .iframe-container {
     width: 500px;
     padding: 1rem 2rem;
+    height: 100%;
 }
