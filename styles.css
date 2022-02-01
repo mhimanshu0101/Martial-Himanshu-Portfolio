@@ -43,7 +43,7 @@ img {
 }
 /* container */
 .container {
-    padding: 0rem 1rem;
+    padding: 1rem 1.5rem;
 }
 
 /* rem: relative to font size with zoom-in and zoom-out. (preffered) */
@@ -388,3 +388,14 @@ a {
 /* .divide-y {
     
 } */
+
+/* responsive iframe */
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
