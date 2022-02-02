@@ -391,7 +391,7 @@ a {
 
 /* responsive iframe */
 .responsive-iframe {
-    position: relative;
+    position: relative;   /* relative: relative to its parent element (eg. inside a div)*/
     top: 0;
     left: 0;
     bottom: 0;
